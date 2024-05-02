@@ -11,8 +11,8 @@ Usage:
 -
 > cache example
 ```java
-        //the long is just an example. just insert the value you want to use. THIS MAY BE AN JAVA OBJECT LIKE USER-OBJECT...
-        LoadingCache<TestObject> cache = new CacheBuilder<TestObject>()
+//the long is just an example. just insert the value you want to use. THIS MAY BE AN JAVA OBJECT LIKE USER-OBJECT...
+LoadingCache<TestObject> cache = new CacheBuilder<TestObject>()
                 //set the maxSize (kb)
                 .setMaxSize(2)
                 //set the time wich the entries have before expiering
