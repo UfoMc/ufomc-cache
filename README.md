@@ -1,5 +1,12 @@
 # ufomc-cache
 
+About
+-
+The UfoMc-Loading Cache is a cache allowing you to eazily implement your database methodes and beeing customize by your wishes.
+It has the feture "fetch" and "write" wich allow you to just add your methodes from the dataBase you are using just ones.
+The feture "fetch" is used when you try to get an object from the cache wich is not inserted already. 
+The feture "write" is used when an cache object is beeing kicked out of the cache to instantly write it into your DB.
+
 Usage:
 -
 > cache example
