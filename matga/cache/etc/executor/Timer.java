@@ -11,7 +11,10 @@ public class Timer<V> {
     public void run(long updateDelay, LoadingCacheBuilderImp<V> methods) {
 
         Executors.newScheduledThreadPool(1).scheduleAtFixedRate(()->{
+
+            System.out.print("updated");
             update(methods);
+
         }, updateDelay, updateDelay, TimeUnit.SECONDS);
 
     }

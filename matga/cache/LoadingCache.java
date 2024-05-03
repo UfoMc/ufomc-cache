@@ -11,5 +11,6 @@ public interface LoadingCache<V> {
     void remove(String key);
 
     void forEach(BiConsumer<? super String, ? super V> action);
+    void save();
 
 }

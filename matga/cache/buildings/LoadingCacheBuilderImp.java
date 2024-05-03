@@ -89,6 +89,13 @@ public class LoadingCacheBuilderImp<V> {
 
                 }
             }
+
+            @Override
+            public void save() {
+                for (Entry<V> entry : entries){
+                    methods.write(entry.getKey(), entry.getValue());
+                }
+            }
         };
 
         new Timer<V>().run(builder.updateDelay, this);
