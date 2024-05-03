@@ -14,13 +14,13 @@ Usage:
 //the long is just an example. just insert the value you want to use. THIS MAY BE AN JAVA OBJECT LIKE USER-OBJECT...
 LoadingCache<TestObject> cache = new CacheBuilder<TestObject>()
         //set the maxSize (kb)
-        .setMaxSize(2)
+        .setMaxSize(2)//added soon
         //set the time wich the entries have before expiering
         .setExpireAfter(5)
         //sets the timestemp for the expiering time (Minutes, Seconds...)
         .setTimeStamp(TimeUnit.MINUTES)
         //sets the max entries (how many entries the cache sould have at max). after expiereing the 'write' methode is executed!
-        .setMaxEntries(5)
+        .setMaxEntries(5)//added soon
         //add your fetch and write methode
         .build(new CacheImpMethods<>() {
             @Override
