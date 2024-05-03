@@ -1,11 +1,18 @@
 # ufomc-cache
 
-About
+What is UfoMC-Loading Cache and what does it do?
 -
 The UfoMc-Loading Cache is a cache allowing you to eazily implement your database methodes and beeing customize by your wishes.
 It has the feture "fetch" and "write" wich allow you to just add your methodes from the dataBase you are using just ones.
 The feture "fetch" is used when you try to get an object from the cache wich is not inserted already. 
 The feture "write" is used when an cache object is beeing kicked out of the cache to instantly write it into your DB.
+
+Who is the developer?
+-
+I am Matteo from germany. I manly code open source projects in java in hope to help some of you out there.
+Feel free to use the ufomc cache where and when ever you want. 
+If you want you can give me a credit. 
+Also you can contact me via discord (ufo.dev) if you have any questions about my person, the cache or anything else or you want to give me ideas for the project or upcomming things :D
 
 Usage:
 -
