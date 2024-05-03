@@ -25,7 +25,7 @@ public class Boot {
     public void disable() {
 
        for (LoadingCache<?> cache : caches){
-
+            cache.save();
        }
 
     }
